@@ -1,4 +1,4 @@
-# https://solved.ac/contribute/1509
+# https://www.acmicpc.net/problem/1509
 
 import sys
 
