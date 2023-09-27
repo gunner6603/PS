@@ -1,3 +1,5 @@
+# https://solved.ac/contribute/1509
+
 import sys
 
 inp = sys.stdin.readline
