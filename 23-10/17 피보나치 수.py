@@ -10,7 +10,7 @@ def matmul(A, B):
         for k in range(2):
             aik = A[i][k]
             for j in range(2):
-                result[i][j] += (result[i][j] + aik * B[k][j]) % MOD
+                result[i][j] = (result[i][j] + aik * B[k][j]) % MOD
     return result
 
 result = [[1, 0], [0, 1]]
