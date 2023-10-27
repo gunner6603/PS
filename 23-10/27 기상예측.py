@@ -64,7 +64,7 @@ def verify(permutation, threshold):
             return True
     return False
 
-left = 0
+left = acc[-1][-1] // ((R + 1)*(S + 1))
 right = min(2_000_000 * 9 * 9, acc[-1][-1])
                     
 while left <= right:
